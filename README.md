@@ -9,7 +9,7 @@
 Instead, developers should focus on delivering the simplest solution that meets the current requirements.
 
 
-
+### Example : You need to create a note pad app, in which user can add a note.
 ###  Before YAGNI
  ![carbon](https://github.com/HarisChandio/YAGNI/assets/86180280/f3b9e417-8790-4fc8-bb8e-0ee415f5116b)
 
