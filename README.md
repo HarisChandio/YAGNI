@@ -66,22 +66,28 @@ To use YAGNI as a developer, it’s like having a practical guide to keep your w
 ![image](https://github.com/HarisChandio/YAGNI/assets/86180280/eb3daaec-5e04-4731-9077-8dc4bcf85a1e)
 
 ### Examples of YAGNI
-Examples of YAGNI
-Here are some examples of how YAGNI can be applied:
+
+**Here are some examples of how YAGNI can be applied**:
 
 - 🛑 **Feature Creep Avoided**: A development team is working on a web application. They initially plan to include a feature that allows users to create and share custom avatars. However, after considering the time and resources required to implement this feature, they decide to postpone it until they receive feedback from users indicating that it is necessary.
+
 - ⚙️ **Complexity Reduction**: A developer is working on a mobile app that allows users to track their exercise routines. Initially, they plan to include a feature that automatically generates personalized workout plans based on the user’s fitness goals. However, after considering the complexity of implementing this feature and the potential impact on the app’s performance, they decide to stick with a simpler approach that allows users to create their own workout plans manually.
+
 - 💼 **Resource Allocation**: A development team is working on an e-commerce platform. They initially plan to include a feature that allows users to create Wishlist and share them with friends. However, after considering the limited time and resources available for the project, they decide to focus on just creating a wishlist and other features that are more critical to the platform’s success.
 
 
-### Benefits of YAGNI
+## Critism Over YAGNI
 
-- ⏩ **Faster Development**: Avoid unnecessary features, expedite development.
-- 🧩 **Simplicity**: Keeps codebase simple, easy to maintain.
-- 🔄 **Flexibility**: Adaptable codebase for changing requirements.
-- 🛡️ **Reduced Risk**: Fewer unnecessary features, fewer bugs.
-- 🎯 **User Focus**: Implement only essential features for users.
-- 💵 **Cost Savings**: Save time, resources by avoiding extras.
-- 🔧 **Improved Maintainability**: Simpler codebase, easier maintenance.
-- ⭐ **Better User Experience**: Prioritize essential features, enhance user experience.
+### Example 1: API Design
+### Scenario: You are developing an API for a service that currently only supports English.
 
+**YAGNI Approach**: You design the API without any consideration for localization or supporting multiple languages.
+
+**Potential Downside**: If the service later needs to support multiple languages, you may have to refactor the API endpoints and data structures to handle localization, which could have been simpler if considered from the beginning.
+
+### Example 4: Code Architecture
+### Scenario: You are building a software application that initially only needs a single-tier architecture.
+
+**YAGNI Approach**: You implement the application with a simple, monolithic architecture without considering future scaling needs.
+
+**Potential Downside**: If the application needs to scale and requires a multi-tier or microservices architecture in the future, you may face significant rework and complexity in refactoring the monolithic codebase.
