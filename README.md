@@ -85,7 +85,7 @@ To use YAGNI as a developer, it’s like having a practical guide to keep your w
 
 **Potential Downside**: If the service later needs to support multiple languages, you may have to refactor the API endpoints and data structures to handle localization, which could have been simpler if considered from the beginning.
 
-### Example 4: Code Architecture
+### Example 2: Code Architecture
 ### Scenario: You are building a software application that initially only needs a single-tier architecture.
 
 **YAGNI Approach**: You implement the application with a simple, monolithic architecture without considering future scaling needs.
