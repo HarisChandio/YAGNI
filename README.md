@@ -57,6 +57,10 @@ Instead, developers should focus on delivering the simplest solution that meets 
 
 YAGNI is important because it helps to keep software development focused and efficient. By only implementing features that are necessary, developers can avoid wasting time and resources on unnecessary functionality. This can lead to faster development times, reduced complexity, and a more maintainable codebase.
 
+## YAGNI is derived from extreme programming?
+
+**Extreme Programming (XP) is an agile software development methodology that emphasizes customer satisfaction, teamwork, and continuous improvement. It was created by Kent Beck, Ward Cunningham, and Ron Jeffries in the late 1990s. XP aims to improve software quality and responsiveness to changing customer requirements through frequent releases in short development cycles, which improves productivity and introduces checkpoints where new customer requirements can be adopted.**
+
 ![image](https://github.com/HarisChandio/YAGNI/assets/86180280/08df63ce-e6df-4cc3-9555-fcb555e74c9c)
 
 ### How do I use YAGNI in my code?
